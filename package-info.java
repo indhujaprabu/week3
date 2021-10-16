@@ -1,1 +1,1 @@
-package org.college;
+package org.student;
