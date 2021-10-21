@@ -6,7 +6,7 @@ public class ReplaceAndPrintSpeci {
 
 	// String sentence = "I am working with Java8"
 	// replace 8 to 11
-	// Print the characters from 5 to 14(working wi)
+	// Print the characters from 5 to 14(working wit)
 
 	public static void main(String[] args) {
 		String s1 = "I am working with Java8";

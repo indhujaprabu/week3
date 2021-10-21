@@ -1,19 +1,26 @@
-package org.system;
+package week3day1;
 
-public class Desktop {
+public class Desktop implements Software {
 
 	public static void main(String[] args) {
-		Computer c = new Computer();
-		c.compModel();
-		Desktop s = new Desktop();
-		s.desktopSize();
-
+		Software s=new Desktop();
+		s.softwareResources();
+		s.hardwareResources();
+	    Desktop d = new Desktop();
+	    d.deskTopModel();
+     
 	}
-
-	public void desktopSize() {
-
-		System.out.println("desktop size is 50*45 pixel");
-
+	public void deskTopModel()
+    {
+   	 System.out.println("This is the Desktop Model");
+    }
+	public void softwareResources()
+	{
+		System.out.println("these are the software resources");
+		
 	}
-
+	public void hardwareResources()
+	{
+		System.out.println("Hardware resources");
+	}
 }
